@@ -8,7 +8,7 @@ zh_pattern = re.compile('[\u4e00-\u9fa5]')  # chinese word pattern
 def chinese_in_string(input_string):
     return zh_pattern.search(input_string)
 
-def file to 
+def file to
 # def file2sent(file_path:str):            # return a list(file) of list(sent)
 #     text = str(open(file_path, 'r').read())
 #     text = re.sub("<.+?>", '', text)        # delete html tags
